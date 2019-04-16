@@ -3,11 +3,11 @@
 
 def key_for_min_value(name_hash)
   return nil if name_hash.empty?
- 
+
    array = []
- 
-  name_hash.each_key {|key| array << key}  
-  
+
+  name_hash.each_key {|key| array << key}
+
   min_key = array[0]
   min_value = 0
 
